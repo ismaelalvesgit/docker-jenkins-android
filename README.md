@@ -3,7 +3,7 @@ Este projeto foi criado para motivos academicos para minha aprendizagem pessoal
 em docker, devops, deploy automatizados com [Jenkins](https://www.jenkins.io/), 
 testes utilizado o [Appium](https://appium.io/) e [RobotFramework](https://robotframework.org/).
 
-Feramentas Utilizadas para criação da Imagem docker:
+Feramentas instaladas na Imagem docker:
 * [NodeJs](https://nodejs.org/en/)
 * [AppiumJS](https://www.npmjs.com/package/appium)
 * [AppiumDoctorJS](https://www.npmjs.com/package/appium-doctor)
@@ -20,7 +20,7 @@ Feramentas Utilizadas para criação da Imagem docker:
 ## Screenshots
 app view:
 
-<img src="https://raw.githubusercontent.com/ismaelalvesgit/docker-jenkins-android/master/app.png" width="400" height="800">
+<img src="https://raw.githubusercontent.com/ismaelalvesgit/docker-jenkins-android/master/app.png" width="600" height="600">
 
 ## Development
 
