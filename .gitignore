@@ -1,0 +1,13 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.buildlog/
+.history
+.svn/
+logs/
+jenkins_home/
+jenkins_backup/

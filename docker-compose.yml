@@ -1,0 +1,36 @@
+version: '3'
+
+services:
+  # jenkins:
+  #   build: .
+  #   image: jenkins/android
+  #   container_name: jenkins
+  #   restart: always
+  #   volumes: 
+  #     - jenkins_home:/var/jenkins_home
+  #     - jenkins_backup:/srv/backup
+  #     - /var/run/docker.sock:/var/run/docker.sock # Linux
+  #     - /etc/localtime:/etc/localtime:ro # Linux
+  #     - /etc/timezone:/etc/timezone:ro # Linux
+  #   ports: 
+  #     - 8080:8080
+  #     - 50000:50000
+
+  jenkins:
+    build: .
+    image: jenkins/android
+    container_name: jenkins
+    restart: always
+    volumes: 
+      - jenkins_home:/var/jenkins_home
+      - jenkins_backup:/srv/backup
+    ports: 
+      - 8080:8080
+      - 50000:50000
+networks:
+  default:
+
+volumes:
+  jenkins_home:
+    driver: local
+  jenkins_backup:
