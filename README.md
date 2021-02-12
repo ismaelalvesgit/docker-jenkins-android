@@ -1,4 +1,4 @@
-# Imagem docker do jenkins para pipeline de aplicações Android e Testes de UI com Appium e Robot Frameworck
+# Imagem docker do jenkins para pipeline de aplicações Android e Testes de UI com Appium e Robot Framework
 Este projeto foi criado para motivos academicos para minha aprendizagem pessoal
 em docker, devops, deploy automatizados com [Jenkins](https://www.jenkins.io/), 
 testes utilizado o [Appium](https://appium.io/) e [RobotFramework](https://robotframework.org/).
