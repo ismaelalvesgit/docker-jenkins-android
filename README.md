@@ -83,7 +83,7 @@ Requisitos Minimos
 * MEMORIA RAM - 4GB
 * CPU - 3 CORE
 
-Requisitos REcomendados
+Requisitos Recomendados
 * HD - 70GB
 * MEMORIA RAM - 6GB
 * CPU - 4 CORE
