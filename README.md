@@ -20,7 +20,7 @@ Feramentas instaladas na Imagem docker:
 ## Screenshots
 app view:
 
-<img src="https://raw.githubusercontent.com/ismaelalvesgit/docker-jenkins-android/master/app.png" width="600" height="600">
+<img src="https://raw.githubusercontent.com/ismaelalvesgit/docker-jenkins-android/master/app.png" width="800" height="600">
 
 ## Development
 
