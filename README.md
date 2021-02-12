@@ -3,7 +3,7 @@ Este projeto foi criado para motivos academicos para minha aprendizagem pessoal
 em docker, devops, deploy automatizados com [Jenkins](https://www.jenkins.io/), 
 testes utilizado o [Appium](https://appium.io/) e [RobotFramework](https://robotframework.org/).
 
-Feramentas instaladas na Imagem docker:
+Ferramentas instaladas na Imagem docker:
 * [NodeJs](https://nodejs.org/en/)
 * [AppiumJS](https://www.npmjs.com/package/appium)
 * [AppiumDoctorJS](https://www.npmjs.com/package/appium-doctor)
