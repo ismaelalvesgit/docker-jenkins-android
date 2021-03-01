@@ -43,6 +43,7 @@ docker build -t nomeDaSuaImagem:tag .
 ```sh
 
 docker run -d --name jenkins --restart always -p 8080:8080 -p 50000:50000 \ 
+-v tcp://localhost:2375:/var/run/docker.sock \
 -v ./jenkins_home:/var/jenkins_home -v ./jenkins_backup:/srv/backup \
 nomeDaSuaImagem:tag # Windows Host 
 
@@ -81,12 +82,12 @@ para sua utilização.
 Requisitos Minimos
 * HD - 70GB
 * MEMORIA RAM - 4GB
-* CPU - 3 CORE
+* CPU - 4 CORE
 
 Requisitos Recomendados
 * HD - 70GB
-* MEMORIA RAM - 6GB
-* CPU - 4 CORE
+* MEMORIA RAM - 8GB
+* CPU - 6 CORE
 
 Obs: NÃO TENTE RODA A IMAGE SE NÃO POSSUI OS REQUISITOS MINIMOS POIS A IMAGE FARA SEU DOCKER TRAVAR.
 

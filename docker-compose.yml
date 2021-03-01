@@ -24,6 +24,13 @@ services:
     volumes: 
       - jenkins_home:/var/jenkins_home
       - jenkins_backup:/srv/backup
+      - tcp://localhost:2375:/var/run/docker.sock # Windows
+      # - //var/run/docker.sock:/var/run/docker.sock # Windows WSL
+      # - //etc/localtime:/etc/localtime:ro # Windows WSL
+      # - //etc/timezone:/etc/timezone:ro # Windows WSL
+      # - /var/run/docker.sock:/var/run/docker.sock # Linux
+      # - /etc/localtime:/etc/localtime:ro # Linux
+      # - /etc/timezone:/etc/timezone:ro # Linux
     ports: 
       - 8080:8080
       - 50000:50000
